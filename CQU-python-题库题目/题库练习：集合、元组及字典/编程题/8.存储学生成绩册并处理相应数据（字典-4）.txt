@@ -1,0 +1,18 @@
+【问题描述】
+存储学生Zhang成绩的字典结构如下：
+stu={"name":"Zhang","english":80,"python":90,"math":100}
+1）请使用上述结构输入3个学生的name及english、python和math三门课的成绩并存储到列表scores中，如下所示：
+scores = [stu1,stu2,stu3]
+2）计算每个同学的平均成绩，同时在字典中添加关键字"avg"用来表示平均成绩，平均成绩用函数round(avg,2)来保留两位小数；
+3）按照每个学生的平均成绩由高到低排序输出3个学生的相关信息。
+【样例输入】
+Zhang 80 90 100
+Li 70 73 80
+Wang 85 83 60
+【样例输出】
+[{'name': 'Zhang', 'english': 80, 'python': 90, 'math': 100, 'avg': 90.0},
+ {'name': 'Wang', 'english': 85, 'python': 83, 'math': 60, 'avg': 76.0},
+  {'name': 'Li', 'english': 70, 'python': 73, 'math': 80, 'avg': 74.33}]
+【样例说明】
+输入为三行，分别是以空格分隔开的三个学生的姓名、英语成绩、python成绩、数学成绩
+输出为一行，降序排列的学生成绩列表

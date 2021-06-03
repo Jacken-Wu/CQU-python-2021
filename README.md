@@ -1,9 +1,9 @@
 ## 重庆大学2020~2021学年python选修课参考答案
 ### 目录
 * main
-* * README.md
-* * CQU-python-题库题题目
-* * CQU-python-题库题参考答案
+  * README.md
+  * CQU-python-题库题题目
+  * CQU-python-题库题参考答案
 
 ### 我想说的
 1. 该代码仅供参考

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 【问题描述】
 录入两份学生名单，采用集合的特点去掉重名，输出同时出现在两个名单里的人，输出两份名单里所有的人（去掉重名）
 【样例输入】
@@ -10,3 +11,17 @@ Jack,Jefferson,Lee,George,Wang,Jefferson
 输入分别是以逗号分隔开的学生名单
 输出第一行：同时出现在两份名单中的人，升序排列
 输出第二行：两份名单中的所有人，升序排列
+=======
+【问题描述】
+录入两份学生名单，采用集合的特点去掉重名，输出同时出现在两个名单里的人，输出两份名单里所有的人（去掉重名）
+【样例输入】
+William,Jefferson,Clinton,George,Bush,George
+Jack,Jefferson,Lee,George,Wang,Jefferson
+【样例输出】
+['George', 'Jefferson']
+['Bush', 'Clinton', 'George', 'Jack', 'Jefferson', 'Lee', 'Wang', 'William']
+【样例说明】
+输入分别是以逗号分隔开的学生名单
+输出第一行：同时出现在两份名单中的人，升序排列
+输出第二行：两份名单中的所有人，升序排列
+>>>>>>> 91c5edef37c527a60ab0cadc28e08bc788a52119

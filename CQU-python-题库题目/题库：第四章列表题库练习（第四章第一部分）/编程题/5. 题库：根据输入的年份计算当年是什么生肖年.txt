@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 【问题描述】
 输入年份数字，计算对应的生肖。例如输入2021，对应的是牛年。12生肖包括鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪
 【输入形式】
@@ -16,4 +17,24 @@ import sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
 【评分标准】
+=======
+【问题描述】
+输入年份数字，计算对应的生肖。例如输入2021，对应的是牛年。12生肖包括鼠、牛、虎、兔、龙、蛇、马、羊、猴、鸡、狗、猪
+【输入形式】
+输入数字表示年份，数字
+【输出形式】
+12生肖中的一个，字符串
+【样例输入】
+2021
+【样例输出】
+牛
+【样例说明】
+输入数字表示年，输出对应的生肖
+要输出汉字，请在代码中加入下面几行：
+import io
+import sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
+【评分标准】
+>>>>>>> 91c5edef37c527a60ab0cadc28e08bc788a52119
 通过测试数据

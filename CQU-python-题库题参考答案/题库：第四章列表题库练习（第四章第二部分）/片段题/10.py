@@ -4,6 +4,7 @@ def missNumber(n):
         if i not in n:
             return i
         i += 1
+<<<<<<< HEAD
 
 
 
@@ -13,5 +14,16 @@ def missNumber(n):
 nums = eval(input())
 number = missNumber(nums)
 print(number)
+=======
+
+
+
+
+
+
+nums = eval(input())
+number = missNumber(nums)
+print(number)
+>>>>>>> 91c5edef37c527a60ab0cadc28e08bc788a52119
 
 

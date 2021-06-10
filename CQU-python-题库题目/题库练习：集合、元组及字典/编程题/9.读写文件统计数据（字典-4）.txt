@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 【问题描述】
   从文件in.txt读取信息，文件里的单词中间由空格隔开
   统计每个单词出现的次数，从大到小排序后输出到文件out.txt
@@ -14,3 +15,21 @@ number 1
 python 1
 word 1
 world 1
+=======
+【问题描述】
+  从文件in.txt读取信息，文件里的单词中间由空格隔开
+  统计每个单词出现的次数，从大到小排序后输出到文件out.txt
+【输入形式】
+  文件里存储了多个单词，有重复，空格隔开
+【输出形式】
+  从大到小输出单词及其出现的次数，次数一样的单词按字符串比较从小到大排序
+【输入样例】in.txt文件里面的数据如下所示：
+  hello world python hello word file number file file
+【输出样例】out.txt文件里面的数据如下所示：
+file 3
+hello 2
+number 1
+python 1
+word 1
+world 1
+>>>>>>> 91c5edef37c527a60ab0cadc28e08bc788a52119

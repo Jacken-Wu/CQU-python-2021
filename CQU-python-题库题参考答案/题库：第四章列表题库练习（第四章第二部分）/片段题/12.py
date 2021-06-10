@@ -6,6 +6,7 @@ def sumlist(n):
         else:
             s += i
     return s
+<<<<<<< HEAD
 
 
 
@@ -14,5 +15,15 @@ def sumlist(n):
 nums = eval(input())
 sumv = sumlist(nums)
 print(sumv)
+=======
+
+
+
+
+
+nums = eval(input())
+sumv = sumlist(nums)
+print(sumv)
+>>>>>>> 91c5edef37c527a60ab0cadc28e08bc788a52119
 
 

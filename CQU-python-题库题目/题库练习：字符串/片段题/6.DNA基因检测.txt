@@ -1,0 +1,9 @@
+    编写与字符串对象的find方法功能相似的函数fun(somestr,substr,startnum,endnum)，作用是在somestr串的下标startnum到下标endnum之间的片段中寻找subString串的所有出现位置。如果有多处出现，各下标位置用西文逗号’,'隔开。如果一次都没有出现，则输出"none"。
+【输入形式】
+按照somestr,substr,startnum,endnum的顺序输入，之间由空格隔开。somestr和substr均由A、T、C、G四个字母组成。startnum和endnum由自然数构成。
+【输出形式】当匹配成功时，输出子串在DNA字符串的所有位置，以子串第一个字母在DNA字符串中匹配位置的下标（从0开始），中间用西文逗号",“隔开；当匹配失败时，输出"none”。
+【样例输入】
+ATGGCTGATGGC TGG 0 11
+【样例输出】1,8
+【样例输入】ATGGCTGATGGC TTT 0 11
+【样例输出】none

@@ -1,0 +1,32 @@
+【问题描述】
+
+设计一个类Root来计算ax2+bx+c=0的根。该类包括：a、b、c共3个属性表示方程的3个系数，getDiscriminant()方法返回b2-4ac, getRoot1()和getRoot2()返回方程的两个根。
+
+其中，getRoot1()返回的根对应：
+
+
+
+x1.png
+
+getRoot2()返回的根对应：
+
+x2.png
+
+
+
+类接口定义：
+
+class Root:
+    def __init__(self,a,b,c):
+        ...
+
+
+【样例输入】
+
+2.1
+10.2
+3.0
+【样例输出】
+
+-0.31
+-4.54

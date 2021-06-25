@@ -1,0 +1,41 @@
+问题描述】
+
+设计一个名为Stock的类来表示一个公司的股票，包括以下内容：
+
+1）股票代码、股票名称、前一天股票价格、当天股票价格4个私有属性；
+
+2）构造方法，需初始化代码、名称、前一天价格和当天价格等属性；
+
+3）返回股票名字的get方法;
+
+4）返回股票代码的get方法;
+
+5）获取和设置股票前一天价格的get和set方法;
+
+6）获取和设置股票当前价格的get和set方法;
+
+7）名为getChangePercent()方法，返回前日收市价至当前价格的变化百分比；
+
+8). 包括文档字符串，其内容为:"Stock Information Class"
+
+
+
+说明：各方法的名称及参数要求请参见测试程序。
+
+
+
+【样例输入】
+
+601318
+Chinese PINAN
+63.21
+64.39
+【样例输出】
+
+Code:601318
+Name:Chinese PINAN
+Price/Yesterday:63.21
+Price/Today:64.39
+Edit Price/Yesterday To:50.25
+Price Change Percentage:28.14%
+Stock Information Class

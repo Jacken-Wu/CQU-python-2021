@@ -1,0 +1,16 @@
+【问题描述】
+    在发票上通常要加印大写汉字金额，编写一个程序，对键盘上输入一个13位内的整数，将其转换为大写汉字的人民币金额。
+【输入形式】
+    输入一个整数
+【输出形式】
+    输出大写的人民币金额
+【样例输入】
+123456789
+【样例输出】
+壹亿贰仟叁佰肆拾伍万陆仟柒佰捌拾玖元整
+【样例说明】
+import io
+import sys
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer,encoding='utf-8')
+【评分标准】

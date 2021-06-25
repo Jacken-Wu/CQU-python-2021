@@ -1,0 +1,9 @@
+【问题描述】
+创建一个名为User 的类，包含first_name 、last_name 、tel及place共4个属性。在类User 中定义一个名为describe_user() 的方法，用于打印用户信息摘要；
+【输入形式】以逗号分隔符分别输入用户的
+【输出形式】输出用户的电话及地址
+【样例输入】
+li,si,13012300001,ChongQing
+【样例输出】lisi tel:13012300001,place:ChongQing
+【样例说明】输出用户的个人信息
+【评分标准】通过所有测试样例

@@ -1,0 +1,16 @@
+【问题描述】
+对一个姓名列表进行排序，其中姓名的形式为“先名后姓”，如列表['Chris
+Terman', 'Tom Brady', 'Eric Grimson', 'Gisele Bundchen']。要求先按第一关键字姓氏排序，对姓氏相同的名字在按名进行排序。
+【输入形式】
+一行输入一个英文名字，先名后姓，中间空格分开（假定姓名均为姓和名两部分构成）。当输入姓名结束，在新一行输入quit退出输入。
+【输出形式】
+输出排好序的姓名列表
+【样例输入】
+Chris Terman
+Tom Brady
+Gisele Bundchen
+quit
+【样例输出】
+['Tom Brady', 'Gisele Bundchen', 'Chris Terman']
+【样例说明】
+【评分标准】

@@ -4,7 +4,6 @@
   * README.md
   * CQU-python-题库题题目
   * CQU-python-题库题参考答案
-* new   /*上传用的分支*
 
 ### 我想说的
 1. 该代码仅供参考
